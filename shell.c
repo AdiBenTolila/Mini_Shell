@@ -1,5 +1,4 @@
 /**
-     ex3:
      The program receives a commands(she can get more than one command seperated by "|") from the user and the command will be sent to the operating system for execution,
      using the fork commands (which create the son process) and execvp (which executes the command)
      and pipe(indicates to the shell to route the STDOUT of the command before it to the STDIN of the command following it)
@@ -32,7 +31,6 @@
 
 
      @author - Adi Ten Tolila
-               id:211378625
 **/
 #include <stdio.h>
 #include <unistd.h>
